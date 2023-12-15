@@ -1,13 +1,26 @@
-/* Gaya kustom dengan warna dominan abu-abu dan putih */
 body {
     background-color: #f5f5f5;
     color: #333;
+    font-family: 'Arial', sans-serif;
 }
 
 header {
-    background-color: #ddd;
-    padding: 20px;
-    margin-bottom: 30px;
+    background-image: url('path/to/flower-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 20px;
+    text-align: center;
+    opacity: 0.9;
+    transition: opacity 0.5s ease-in-out;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 0;
 }
 
 section {
@@ -16,8 +29,8 @@ section {
     padding: 30px;
     margin-bottom: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
 }
 
-/* Tambahkan gaya bunga dan dekorasi Jawa di sini */
-
-/* Tambahkan gaya lainnya sesuai kebutuhan Anda */
+/* Add more custom styles as needed */
