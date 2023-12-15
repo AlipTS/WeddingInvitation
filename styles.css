@@ -2,6 +2,7 @@ body {
     font-family: 'Playball', cursive;
     background-color: #f5f5f5;
     color: #333;
+    margin: 0;
 }
 
 .section {
@@ -25,6 +26,15 @@ body {
     margin: 0;
 }
 
-#section1 { background-color: #f8b400; }
-#section2 { background-color: #78c4d4; }
-/* ... (Lanjutkan sesuai keinginan) */
+#section1 { background-color: #e6e6e6; }
+#section2 { background-color: #f2f2f2; }
+#section3 { background-color: #fff2e6; }
+#section4 { background-color: #cce6ff; }
+#section5 { background-color: #e6e6e6; }
+#section6 { background-color: #f2f2f2; }
+#section7 { background-color: #fff2e6; }
+#section8 { background-color: #cce6ff; }
+#section9 { background-color: #e6e6e6; }
+#section10 { background-color: #f2f2f2; }
+#section11 { background-color: #fff2e6; }
+#section12 { background-color: #cce6ff; }
