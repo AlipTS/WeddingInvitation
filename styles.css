@@ -1,15 +1,23 @@
-/* Tambahkan gaya kustom di sini */
+/* Gaya kustom dengan warna dominan abu-abu dan putih */
 body {
-    padding-top: 50px;
+    background-color: #f5f5f5;
+    color: #333;
 }
 
 header {
-    text-align: center;
+    background-color: #ddd;
+    padding: 20px;
     margin-bottom: 30px;
 }
 
 section {
-    margin-bottom: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+/* Tambahkan gaya bunga dan dekorasi Jawa di sini */
 
 /* Tambahkan gaya lainnya sesuai kebutuhan Anda */
