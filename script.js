@@ -1,5 +1,3 @@
-// Skrip JavaScript untuk menangani efek transisi saat di-scroll
-
 document.addEventListener('DOMContentLoaded', function () {
     const sections = document.querySelectorAll('section');
 
@@ -23,4 +21,3 @@ document.addEventListener('DOMContentLoaded', function () {
     // Memastikan efek transisi diterapkan saat halaman dimuat
     checkVisibility();
 });
-
