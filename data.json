@@ -1,0 +1,32 @@
+{
+  "couple": {
+    "name": "John & Jane",
+    "weddingDate": "June 15, 2023"
+  },
+  "loveStory": {
+    "content": "We met in the summer of 2015 during a friend's party. Little did we know, it was the beginning of our beautiful journey together."
+  },
+  "schedule": {
+    "content": "Join us as we celebrate our love on June 15, 2023. The ceremony will begin at 4:00 PM, followed by a reception at 6:00 PM."
+  },
+  "location": {
+    "venue": "Elegant Gardens Wedding Hall",
+    "address": "123 Love Street, Cityville"
+  },
+  "gallery": {
+    "content": "Photo gallery content here"
+  },
+  "rsvp": {
+    "deadline": "May 31, 2023",
+    "content": "RSVP form content here"
+  },
+  "accommodation": {
+    "content": "For our out-of-town guests, we have arranged special rates with nearby hotels. Please check the Accommodation page for details."
+  },
+  "guestbook": {
+    "content": "Guestbook or message form content here"
+  },
+  "faq": {
+    "content": "Have questions? Check out our FAQ section for more information."
+  }
+}
