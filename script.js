@@ -1,24 +1,26 @@
-// document.addEventListener('DOMContentLoaded', function () {
-//     const sections = document.querySelectorAll('section');
+// Skrip JavaScript untuk menangani efek transisi saat di-scroll
 
-//     function checkVisibility() {
-//         sections.forEach(section => {
-//             const bounding = section.getBoundingClientRect();
-//             if (
-//                 bounding.top >= 0 &&
-//                 bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight)
-//             ) {
-//                 section.style.opacity = '1';
-//             } else {
-//                 section.style.opacity = '0';
-//             }
-//         });
-//     }
+document.addEventListener('DOMContentLoaded', function () {
+    const sections = document.querySelectorAll('section');
 
-//     window.addEventListener('scroll', checkVisibility);
-//     window.addEventListener('resize', checkVisibility);
+    function checkVisibility() {
+        sections.forEach(section => {
+            const bounding = section.getBoundingClientRect();
+            if (
+                bounding.top >= 0 &&
+                bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight)
+            ) {
+                section.style.opacity = '1';
+            } else {
+                section.style.opacity = '0';
+            }
+        });
+    }
 
-//     // Memastikan efek transisi diterapkan saat halaman dimuat
-//     checkVisibility();
-// });
+    window.addEventListener('scroll', checkVisibility);
+    window.addEventListener('resize', checkVisibility);
+
+    // Memastikan efek transisi diterapkan saat halaman dimuat
+    checkVisibility();
+});
 
