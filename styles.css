@@ -11,12 +11,12 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    opacity: 0; /* Opacity awal diset ke 0 */
-    transition: opacity 0.8s ease;
+    opacity: 0;
+    transition: opacity 1s ease;
 }
 
 .section.visible {
-    opacity: 1; /* Opacity setelah kelas 'visible' ditambahkan diset ke 1 */
+    opacity: 1;
 }
 
 .section h2 {
@@ -29,15 +29,15 @@ body {
     margin: 0;
 }
 
-#section1 { background-color: #fff; }
-#section2 { background-color: #fff; }
-#section3 { background-color: #fff; }
-#section4 { background-color: #fff; }
-#section5 { background-color: #fff; }
-#section6 { background-color: #fff; }
-#section7 { background-color: #fff; }
-#section8 { background-color: #fff; }
-#section9 { background-color: #fff; }
-#section10 { background-color: #fff; }
-#section11 { background-color: #fff; }
-#section12 { background-color: #fff; }
+#section1 { background-color: #ffe6cc; } /* Cream */
+#section2 { background-color: #ccf2ff; } /* Biru Muda Pastel */
+#section3 { background-color: #d9d9d9; } /* Abu-abu 30% */
+#section4 { background-color: #e6e6e6; } /* Putih 30% */
+#section5 { background-color: #ccf2ff; } /* Biru Muda Pastel */
+#section6 { background-color: #ffe6cc; } /* Cream */
+#section7 { background-color: #d9d9d9; } /* Abu-abu 30% */
+#section8 { background-color: #e6e6e6; } /* Putih 30% */
+#section9 { background-color: #ccf2ff; } /* Biru Muda Pastel */
+#section10 { background-color: #ffe6cc; } /* Cream */
+#section11 { background-color: #d9d9d9; } /* Abu-abu 30% */
+#section12 { background-color: #e6e6e6; } /* Putih 30% */
